@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table{
+            width: 400px;
+            border: 1px;
+            border-style: solid;
+            border-collapse: collapse;
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+        th{
+            border: 1px;
+            border-style: solid;
+        }
+        td{
+            border: 1px;
+            border-style: solid;
+        }
+        .centralizar{
+            text-align: center;
+        }
+        .fim{
+            text-align: end;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr class="centralizar">
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            <tr class="fim">
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="centralizar">4</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td colspan="2">4</td>
+            </tr>
+            <tr></tr>
+        </table>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
